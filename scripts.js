@@ -65,7 +65,12 @@ var products = [
 ];
  
 const SelfServiceMachine = {
-
+    // Function
+    data(){
+        return {
+            message:"Hello World"
+        }
+    }
 } 
 
 Vue.createApp(SelfServiceMachine).mount('#app');
