@@ -81,7 +81,7 @@ const SelfServiceMachine = {
                 }
             });
 
-            return total;
+            return total.toFixed(2);
         }
     }
 } 
