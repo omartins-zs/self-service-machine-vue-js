@@ -70,6 +70,15 @@ const SelfServiceMachine = {
         return {
             products: window.products
         }
+    },
+    methods: {
+        total: function() {
+            var total = 0;
+
+            this.products.products.forEach(function(item){
+                
+            });
+        }
     }
 } 
 
